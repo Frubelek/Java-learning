@@ -1,0 +1,14 @@
+public class Method {
+    static void myMethod(int a, int b) {     // Metoda z dwoma cyframi
+                    System.out.println(a * b);
+                    System.out.println(a / b);
+                    System.out.println(a + b);
+                    System.out.println(a - b);
+    }
+
+    public static void main(String[] args) {
+        myMethod(1, 2);            // argumentów w nawiasie musi być tyle samo i muszą być w tej samej kolejności 
+        myMethod(3, 5+2);
+    }
+}    
+
