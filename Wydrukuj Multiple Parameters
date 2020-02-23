@@ -1,0 +1,10 @@
+public class Method {
+    static void myMethod(String name, int age, int tall) {     // Metoda z trzema parametrami
+        System.out.println("Masz na imię " + name + ", Twój wzrost to " + tall + "cm i masz " + age + " lat. Jak widzisz wiem wszystko ;)" );
+    }
+
+    public static void main(String[] args) {
+        myMethod("Paweł", 28, 187);            // argumentów w nawiasie musi być tyle samo i muszą być w tej samej kolejności 
+        myMethod("Rysiek", 34, 179);           // co parametrów w Metodzie
+    }
+}    
