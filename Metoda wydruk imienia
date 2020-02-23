@@ -1,0 +1,9 @@
+public class Method {
+    static void myMethod(String name) {             //w nawiasie () wpisuję parametry
+        System.out.println("Moje imię " + name);
+    }
+
+    public static void main(String[] args) {
+        myMethod("Paweł");                          //w tym nawiasie wpisuję argument ktory odwołuje się do parametru z metody myMethod
+    }
+}    
