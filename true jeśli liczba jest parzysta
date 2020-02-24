@@ -1,0 +1,10 @@
+public class Math {
+
+    static boolean parzyste (int number){
+        return number % 2 == 0;
+    }
+    
+    public static void main(String[] args) {
+        System.out.println(parzyste(8));
+    }
+}
