@@ -1,0 +1,10 @@
+public class Math {
+
+    private static double sqrt(double number) {
+        return Math.sqrt(number, 3);
+    }
+
+    public static void main(String[] args) {
+        System.out.println(sqrt(5));
+    }
+}
